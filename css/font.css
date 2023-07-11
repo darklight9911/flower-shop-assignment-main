@@ -1,0 +1,9 @@
+/* get helped from w3school url:https://www.w3schools.com/cssref/css3_pr_font-face_rule.php */
+@font-face {
+    font-family: defaultregular;
+    src: url("../fonts/AmaticSC-Regular.ttf");
+  }
+@font-face {
+    font-family: defaultbold;
+    src: url("../fonts/AmaticSC-Bold.ttf");
+}

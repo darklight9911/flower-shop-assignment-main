@@ -1,0 +1,125 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Amatic+SC:wght@400;700&display=swap'); */
+/* get helped from w3school url:https://www.w3schools.com/cssref/css3_pr_font-face_rule.php */
+@font-face {
+    font-family: defaultregular;
+    src: url("../fonts/AmaticSC-Regular.ttf");
+  }
+@font-face {
+    font-family: defaultbold;
+    src: url("../fonts/AmaticSC-Bold.ttf");
+}
+* {
+    /* font-family: "defaultregular"; */
+    font-family: 'Courier New', Courier, monospace;
+}
+
+body{
+    margin: 0px;
+
+
+}
+.banner {
+    display: flex;
+    /* width: 1920px;
+    height: 850px; */
+    margin: 0px;
+    /* flex-shrink: 0; */
+    background: rgba(229, 84, 115, 0.10);
+    justify-content: space-around;
+
+}
+.banner1 {
+    display: block;
+}
+.banner1-heading {
+    margin-top: 0px;
+    margin-bottom: 0px;
+    padding: 197px 0px 0px 240px;
+    color: #272727;
+    font-family: Lato;
+    font-size: 80px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+    width: 708px;
+}
+.banner1-description{
+    margin-top: 32px;
+    margin-left: 240px;
+    margin-bottom: 32px;
+    color: rgba(39, 39, 39, 0.60);
+
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 30px;
+    width: 634px;
+
+}
+.btn-primary {
+    padding: 20px 43px;
+
+    gap: 10px;
+    color: #FFF;
+    font-family: Lato;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    border-radius: 8px;
+    background: #E55473;
+    border: 0px;
+    padding: 20px 43px;
+
+}
+#banner1-btn-primary {
+    margin: 0px 0px 147px 240px
+}
+.banner-bg {
+    padding: 50px 240px 0px 0px;
+    width: 635px;
+    height: 800px;
+    flex-shrink: 0;
+}
+.banner2 {
+
+}
+
+.banner2-title {
+    text-align: center;
+    padding: 178px 764px 0px 764px;
+
+}
+#banner2-des {
+    text-align: center;
+    padding: 0px 663px ;
+}
+.box {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.box-footer {
+    color: #272727;
+    text-align: center;
+    font-family: Lato;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 35px;
+    text-decoration-line: underline;
+    text-align: center;
+    text-decoration: underline;
+}
+.box1 {
+    border-radius: 300px 300px 0px 0px;
+    background: rgba(167, 33, 98, 0.15);
+    width: 464px;
+    height: 538px;
+    flex-shrink: 0;
+}
+.box1 .box11 {
+    width: 310px;
+    height: 428px;
+    padding: 110px 78px 0px 78px;
+}
