@@ -10,7 +10,8 @@
 }
 * {
     /* font-family: "defaultregular"; */
-    font-family: 'Courier New', Courier, monospace;
+    font-family: Lato;
+
 }
 
 body{
@@ -88,16 +89,30 @@ body{
 .banner2-title {
     text-align: center;
     padding: 178px 764px 0px 764px;
-
+    
 }
 #banner2-des {
+
+    width: 594px;
+    flex-direction: column;
+    flex-shrink: 0;
     text-align: center;
     padding: 0px 663px ;
+    font-family: Lato;
+    color: rgba(39, 39, 39, 0.60);
+    text-align: center;
+    font-family: Lato;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px;
+
 }
 .box {
     display: flex;
     align-items: center;
     justify-content: center;
+    gap: 24px;
 }
 .box-footer {
     color: #272727;
@@ -105,8 +120,8 @@ body{
     font-family: Lato;
     font-size: 24px;
     font-style: normal;
-    font-weight: 700;
-    line-height: 35px;
+    font-weight: 400;
+    line-height: normal;
     text-decoration-line: underline;
     text-align: center;
     text-decoration: underline;
@@ -122,4 +137,37 @@ body{
     width: 310px;
     height: 428px;
     padding: 110px 78px 0px 78px;
+}
+.box2 {
+    border-radius: 300px 300px 0px 0px;
+    background: rgba(5, 151, 160, 0.15);
+    width: 464px;
+    height: 538px;
+
+}
+.box2 .box22 {
+    
+    width: 370px;
+    height: 370px;
+
+    padding: 110px 78px 83px 78px;
+
+   
+}
+.box2 .box-footer{
+    margin: 0px;
+}
+
+.box3 {
+    border-radius: 300px 300px 0px 0px;
+    background: rgba(71, 125, 17, 0.15);
+    width: 464px;
+    height: 538px;
+    flex-shrink: 0;
+}
+.box3 .box33 {
+    padding: 67px 75px 0px 75px;
+    width: 314px;
+    height: 471px;
+    flex-shrink: 0;
 }
