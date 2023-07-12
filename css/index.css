@@ -256,8 +256,22 @@ body{
     font-weight: 400;
     line-height: 30px;
 }
-.image-box1 {
-    width: 342px;
-    height: 396px;
-    flex-shrink: 0;
+.image-box1{
+
+
+
+    object-fit: scale-down;
+
+
+}
+/* object fit atribute learned from w3school */
+.image-box1 img {
+
+    max-width: 342px;
+    max-height: 396px;
+    object-fit: none;
+
+}
+.instagram {
+    margin-top: 128px;
 }
