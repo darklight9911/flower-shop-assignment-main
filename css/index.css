@@ -10,7 +10,7 @@
 }
 * {
     /* font-family: "defaultregular"; */
-    font-family: Lato;
+    font-family: monospace;
 
 }
 
@@ -37,7 +37,6 @@ body{
     margin-bottom: 0px;
     padding: 197px 0px 0px 240px;
     color: #272727;
-    font-family: Lato;
     font-size: 80px;
     font-style: normal;
     font-weight: 800;
@@ -62,7 +61,6 @@ body{
 
     gap: 10px;
     color: #FFF;
-    font-family: Lato;
     font-size: 20px;
     font-style: normal;
     font-weight: 700;
@@ -98,7 +96,6 @@ body{
     flex-shrink: 0;
     text-align: center;
     padding: 0px 663px ;
-    font-family: Lato;
     color: rgba(39, 39, 39, 0.60);
     text-align: center;
     font-family: Lato;
@@ -117,7 +114,6 @@ body{
 .box-footer {
     color: #272727;
     text-align: center;
-    font-family: Lato;
     font-size: 24px;
     font-style: normal;
     font-weight: 400;
@@ -171,3 +167,16 @@ body{
     height: 471px;
     flex-shrink: 0;
 }
+.rec-6{
+    margin: 128px 240px 0px 240px;
+    display: flex;
+    padding-top: 86px;
+    padding-left: 175px;
+    padding-right: 175px;
+    justify-content: space-around;
+    /* gap: 356px; */
+    text-align: center;
+}
+/* .rec-6 .our-service{
+    gap: ;
+} */
