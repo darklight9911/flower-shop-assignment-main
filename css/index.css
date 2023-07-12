@@ -224,3 +224,40 @@ body{
 .main-hot-deal .btn-primary {
     margin-left:  603px;
 }
+.image-boxs {
+    display: flex;
+    gap: 24px;
+    margin: 48px 240px;
+
+}
+.insta-text {
+    margin: auto;
+}
+.insta-title {
+    color: #272727;
+    text-align: center;
+    margin-bottom: 0px;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+    text-align: center;
+}
+.insta-des {
+    margin: auto;
+    width: 594px;
+    margin-top: 24px;
+    text-align: center;
+    color: rgba(39, 39, 39, 0.60);
+    text-align: center;
+
+    font-size: 18px;
+
+    font-weight: 400;
+    line-height: 30px;
+}
+.image-box1 {
+    width: 342px;
+    height: 396px;
+    flex-shrink: 0;
+}
